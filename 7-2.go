@@ -42,16 +42,16 @@ func main() {
 	mux := http.NewServeMux()
 	mux.Handle("/", &indexHandler{})
 
-	menu1 := &textHandler{"page 11"}
+	menu1 := &textHandler{"page 111"}
 	mux.Handle("/menu1", menu1)
 
-	menu2 := &textHandler{"page 22"}
+	menu2 := &textHandler{"page 222"}
 	mux.Handle("/menu2", menu2)
 
-	menu3 := &textHandler{"page 33"}
+	menu3 := &textHandler{"page 333"}
 	mux.Handle("/menu3", menu3)
 
-	menu4 := &textHandler{"page 44"}
+	menu4 := &textHandler{"page 444"}
 	mux.Handle("/menu4", menu4)
 
 	log.Println("Listening...")
