@@ -1,15 +1,9 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	var a int = 3
-	var b int = 5
-	var c int = a + b
-
-	fmt.Println(a)
-	fmt.Println(b)
-	fmt.Println(c)
+	var gopher string
+	gopher = "I am a gopher"
+	fmt.Printf("Hello \n", gopher)
 }
