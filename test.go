@@ -3,7 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var gopher string
-	gopher = "I am a gopher"
-	fmt.Printf("Hello \n", gopher)
+	a := 3
+	b := 2
+	c := a + b
+	fmt.Println("a=", a)
+	fmt.Println("b=", b)
+	fmt.Println("a+b=", c)
 }
