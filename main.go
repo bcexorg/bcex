@@ -26,10 +26,10 @@ func (ih *indexHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		`<doctype html> 
          <html>
 	    	<head>
-		 		<title>Biomass Commodity Exchange</title>
+		 		<title>BCEX</title>
 	    	</head>
 			<body>
-				<b>Wellcome to BCEX</b>
+				<b>Biomass Commodity Exchange</b>
         		<p>
           		<a href="/menu1">page 1</a> | <a href="/menu2">page 2</a> | <a href="/menu3">page 3</a> | <a href="/menu4">page 4</a>
         		</p>
